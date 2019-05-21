@@ -5,14 +5,16 @@
 	<title>최규진's 홈페이지</title>
 	<style>
 	  html, body {
+		margin: 0px;
 		width:100%;
 		height:100%;
+		font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	  }
 	  .header {
+		margin: 0px;
 		display: table;
 		background-size: 100%;
 		width: 100%;
-		position: realative;
 		background-image: url("bg.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -29,6 +31,18 @@
 		font-size: 4.5em;
 		font-weight: 700;
 	  }
+	  .headerbutton {
+		border-radius: 0;
+		color: #fff;
+		background-color: rgba(0, 0, 0, 0.4);
+		width: 10em;
+		height: 4em;
+		font-size: 0.8em;
+	  }
+
+	  .headerbutton:hover {
+	  background-color: rgba(0, 0, 0, 0.8);
+	  }
 	  </style>
   </head>
   <body>
@@ -39,12 +53,16 @@
 	<div class="text-vertical-center">
 	  <h1>최규진의 홈페이지</h1>
 	  <h3>원광대학교 정보통신공학과</h3><br>
-	  <input type="button" vlaue="더 알아보기">더 알아보기</input>
+	  <button class="headerbuston" onclick="location.href='#travel'">더 알아보기</button>
 	</div>
   </header>
 
   <!-- Travel -->
-
+  <section id="travel">
+	<div class="travel">
+	  <img id="travel1" src="bg.jpg" width="300" height="200" alt="여행1">
+	</div>
+	</section>
   <!-- Activities -->
 
   <!-- Coding -->
