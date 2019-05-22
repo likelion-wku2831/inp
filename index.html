@@ -7,6 +7,7 @@
 	  html, body {
 		margin: 0px;
 		width:100%;
+		height: 100%;
 		font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	  }
 	  p {
@@ -50,11 +51,15 @@
 	  #travel {
 		background-color: #6ABBFF;
 	  }
+	  p {
+		margin: 0;
+	  }
 	  .travel {
 		position: relative;
 		width: 100%;
 		height: 300px;
 		margin: 0 auto;
+		padding-top: 100px;
 	  }
 	  img {
 		position: absolute;
@@ -77,6 +82,15 @@
 	    width: 350px;
 	   height: auto;
 	  }
+
+	  .activity {
+		margin: 0 auto;
+		width: 100%;
+		height: 400px;
+		padding-top: 100px;
+	  }
+
+
 	</style>
   </head>
   <body>
@@ -93,7 +107,7 @@
 
   <!-- Travel -->
   <section id="travel">
-	<p>여행사진</p>
+	<p><br>여행사진<br></p>
 	<div class="travel">
 	  <a href="https://instagram.com/kyujin96"><img id="travel1" src="travel1.jpg" width="300" height="200" alt="여행1"></a>
 	  <a href="https://instagram.com/kyujin96"><img id="travel2" src="travel2.jpg" width="300" height="200" alt="여행2"></a>
@@ -108,7 +122,10 @@
   <!-- Activities -->
   <section id ="activity">
 	<p>대외활동</p>
-  </sect	ion>
+	<div class="activity">
+	  
+	</div>
+  </section>
   <!-- Coding -->
   <section id = "coding">
 	<p>프로그래밍 공부</p>
