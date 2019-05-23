@@ -89,23 +89,22 @@
 		height: 400px;
 		padding-top: 100px;
 	  }
-	  div table {
-		width: 100%;
-		margin: 0 auto;
+	  .activity-center {
+		float: left;
+		width: 23%;
+		height: 300px;
 	  }
-	  th {
-		margin: 15px;
-	  }
-	  th img {
+	  .activity-center img {
 		width: 250px;
 		height: auto;
 		border-radius: 15px;
 	  }
-	  th h3 {
+	  .activity-center h3 {
 		font-family: "Helvetica";
 		height: 0.7em;
+		margin-bottom: 0px;
 	  }
-	  tr :hover {
+	  .activity-center :hover {
 		box-shadow : 1px 1px 1px black,
 					 0 0 10px pink,
 					 0 0 5px magenta;
@@ -143,17 +142,18 @@
   <section id ="activity">
 	<p><br>대외활동<br></p>
 	<div class="activity">
-	  <table class "activities">
-	  <tr>
-		<th><img src="travel1.jpg"><br><br><h3>멋쟁이 사자처럼</h3><br>2016. 04 ~ 11</th>
-		<th><img src="travel2.jpg"><br><br><h3>삼성증권 YAHO 봉사단</h3><br>2019. 03 ~ 11</th>
-		<th><img src="travel3.jpg"><br><br><h3>프로보노 멘토링</h3><br>2016. 07 ~ 12</th>
-		<th><img src="travel4.jpg"><br><br><h3>코딩 교육봉사</h3><br>2016. 09 ~ 12</th>
-	  </tr>
-	  
-	  <!-- 표 셀 하나로 통합해서 사진 밑에 활동명 밑에 기간입력 후 후버로 테두리효과 -->
-	  
-	  </table>
+	  <div class="activity-center">
+		<img src="travel1.jpg"><br><br><h3>멋쟁이 사자처럼</h3><br>2016. 04 ~ 11
+	  </div>
+	  <div class="activity-center">
+		<img src="travel2.jpg"><br><br><h3>삼성증권 YAHO 봉사단</h3><br>2019. 03 ~ 11
+	  </div>
+	  <div class="activity-center">
+		<img src="travel3.jpg"><br><br><h3>프로보노 멘토링</h3><br>2016. 07 ~ 12
+	  </div>
+	  <div class="activity-center">
+		<img src="travel4.jpg"><br><br><h3>코딩 교육봉사</h3><br>2016. 09 ~ 12
+	  </div>
 	</div>
   </section>
   <!-- Coding -->
