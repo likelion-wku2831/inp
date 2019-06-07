@@ -44,11 +44,10 @@
 	}
 	#main {
 	  width: 100%;
-	  height: 70%;
+	  height: auto;
 	}
 	.main {
 	  width: 80%;
-	  height: 60%;
 	  margin-left: 15%;
 	}
 	#main p {
@@ -57,7 +56,28 @@
 	  vertical-align: middle;
 	  margin-left: 10%;
 	}
-
+	table {
+	  border: 2px solid black;
+	  margin-bottom: 5%;
+	}
+	td {
+	  border: 1px solid black;
+	  font-size: 2em;
+	  padding: 10px;
+	  height: 5%;
+	}
+	td:nth-child(2n+1) {
+	  width: 10%;
+	}
+	td:nth-child(2n) {
+	  font-size: 1em;
+	  width: 5%;
+	  text-align: center;
+	  color: white;
+	}
+	:hover td:nth-child(2n) {
+	  background-color: black;
+	}
 		
 	#footer {
 	  width: 100%;
@@ -100,9 +120,46 @@
 	
 	<!-- main section -->
 	<section id="main">
-	  <p>목록</p>
+	  <p>단어장</p>
 	  <div class="main">
-
+		<table>
+		  <tr>
+			<td>合う</td><td>만나다</td><td>あとで</td><td>후에</td><td>1回</td><td>1번</td><td>美味い</td><td>맛있다</td>
+		  </tr>
+		  <tr>
+			<td>青い</td><td>파랗다</td><td>危ない</td><td>위험하다</td><td>5日</td><td>5일</td><td>生まれる</td><td>태어나다</td>
+		  </tr>
+		  <tr>
+			<td>赤い</td><td>붉다</td><td>甘い</td><td>달다</td><td>犬</td><td>개</td><td>海</td><td>바다</td>
+		  </tr>
+		  <tr>
+			<td>明るい</td><td>밝다</td><td>あまり</td><td>아마도</td><td>今</td><td>지금</td><td>売る</td><td>팔다</td>
+		  </tr>
+		  <tr>
+			<td>秋</td><td>가을</td><td>雨</td><td>비</td><td>妹</td><td>여동생</td><td>英語</td><td>영어</td>
+		  </tr>
+		  <tr>
+			<td>あげる</td><td>올리다</td><td>洗う</td><td>씻다</td><td>嫌だ</td><td>싫다</td><td>駅</td><td>역</td>
+		  </tr>
+		  <tr>	
+			<td>浅い</td><td>얕다</td><td>良い</td><td>좋다</td><td>入り口</td><td>입구</td><td>美味しい</td><td>맛있다</td>
+		  </tr>
+		  <tr>
+			<td>朝ごはん</td><td>아침밥</td><td>言う</td><td>말하다</td><td>入れる</td><td>넣다</td><td>多い</td><td>많다</td>
+		  </tr>
+		  <tr>
+			<td>足</td><td>발</td><td>行く</td><td>가다</td><td>色</td><td>색깔</td><td>大きい</td><td>크다</td>
+		  </tr>
+		  <tr>
+			<td>遊ぶ</td><td>놀다</td><td>忙しい</td><td>바쁘다</td><td>上</td><td>위</td><td>大勢</td><td>많은사람</td>
+		  </tr>
+		  <tr>
+			<td>新しい</td><td>새롭다</td><td>一月</td><td>1월</td><td>薄い</td><td>얇다</td><td>おかさん</td><td>어머니</td>
+		  </tr>
+		  <tr>
+			<td>厚い</td><td>두껍다</td><td>一時</td><td>1시</td><td>馬</td><td>말</td><td>お菓子</td><td>과자</td>
+		  </tr>
+		</table>
 	  </div>
 	</section>
 
