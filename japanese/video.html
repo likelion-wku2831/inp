@@ -44,8 +44,7 @@
 	}
 	#main {
 	  width: 100%;
-	  height: 150%;
-	  margin-bottom: 15%;
+	  height: auto;
 	}
 	#main p {
 	  font-size: 3em;
@@ -55,15 +54,21 @@
 	}
 	.movie {
 	  width: 80%;
+	  overflow: hidden;
 	  height: auto;
-	  margin-left: 15%;
-	  margin-right: 15%;
-	  margin-bottom: 5%;
+	  margin: 0% 15% 5% 10%;
+	}
+	.drama {
+	  width: 80%;
+	  overflow: hidden;
+	  height: auto;
+	  margin: 0% 15% 5% 10%;
 	}
 	.object {
 	  float: left;
 	  width: 25%;
 	  text-align: center;
+	  margin-bottom: 5%;
 	}
 	.object img {
 	  width: 90%;
@@ -116,6 +121,7 @@
 	
 	<!-- main section -->
 	<section id="main">
+	<div>
 	  <p>영화</p>
 	  <div class="movie">
 		<div class="object">
@@ -134,25 +140,20 @@
 		  <img src="../public/chihaya.jpg"><br><br><h3>ちはやふる</h3>
 		</div>
 	  </div>
-		
-		
-	   <p>영화</p>
-	  <div class="movie">
+	  </div>	
+	  <div>	
+	   <p>드라마</p>
+	  <div class="drama">
 		<div class="object">
-		  <img src="../public/angel.jpg"><br><br><h3>天子の　恋</h3>
+		  <img src="../public/legalhigh.jpg"><br><br><h3>リーガル　ハイ</h3>
 		</div>
 		<div class="object">
-		  <img src="../public/date.jpg"><br><br><h3>僕は明日、昨日の君と　デートする</h3>
+		  <img src="../public/thrill.jpg"><br><br><h3>スリル！</h3>
 		</div>
 		<div class="object">
-		  <img src="../public/oneweek.jpg"><br><br><h3>一週間　フレンズ</h3>
+		  <img src="../public/chic.jpg"><br><br><h3>孤独の　グルメ</h3>
 		</div>
-		<div class="object">
-		  <img src="../public/wanna.jpg"><br><br><h3>君の　膵臓を　食べたい</h3>
-		</div>
-		<div class="object">
-		  <img src="../public/chihaya.jpg"><br><br><h3>ちはやふる</h3>
-		</div>
+	  </div>
 	  </div>
 	</section>
 
